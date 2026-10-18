@@ -35,7 +35,7 @@ export function Hero() {
           </p>
 
           <div className="hero-actions" data-anim style={step(4)}>
-            <a className="btn btn--primary" href={ROUTES.portfolio}>
+            <a className="btn btn--primary" href="#projects">
               View My Projects
             </a>
             <a className="btn btn--ghost" href="#contact">
