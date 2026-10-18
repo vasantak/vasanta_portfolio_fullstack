@@ -63,7 +63,7 @@ export function Hero() {
                   <circle cx="60" cy="44" r="20" />
                   <path d="M20 108c0-22 18-38 40-38s40 16 40 38" />
                 </svg>
-                <span>Your photo here</span>
+                <span>Your photo here </span>
               </div>
             </div>
           </div>
