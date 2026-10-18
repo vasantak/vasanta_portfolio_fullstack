@@ -17,7 +17,18 @@ export const PROJECTS: Project[] = [
     title: "Start Hub Application",
     description:
       "Enterprise application development featuring reusable React components, TanStack Query caching and synchronization, secure authentication, API integration, CRUD operations, and frontend performance optimization.",
-    tech: ["React.js", "TypeScript", "Node.js", "Express.js", "Tailwind CSS", "REST APIs"],
+    tech: [
+      "React.js",
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "Tailwind CSS",
+      "REST APIs",
+      "TanStack Query",
+      "Axios",
+      "JWT Authentication",
+      "PostgreSQL",
+    ],
     illustration: "startHub",
   },
   {
@@ -26,7 +37,18 @@ export const PROJECTS: Project[] = [
     title: "Hello Spoke",
     description:
       "Voice Over IP, VoIP, Business Phone Systems, multifamily housing, emergency escalations, answering service, communication, apartment communities, emergency maintenance, on call schedules, maintenance mitigation",
-    tech: ["React.js", "TypeScript", "REST APIs", "Axios", "React Query", "Node.js", "Express.js", "Tailwind CSS", "Third-party API integrations"],
+    tech: [
+      "React.js",
+      "TypeScript",
+      "REST APIs",
+      "Axios",
+      "React Query",
+      "Node.js",
+      "Express.js",
+      "Tailwind CSS",
+      "Third-party API integrations",
+      "MongoDB",
+    ],
     illustration: "helloSpoke",
   },
   {
@@ -44,7 +66,17 @@ export const PROJECTS: Project[] = [
     title: "Mentorz",
     description:
       "Mentorship platform connecting mentors and mentees, with mentor discovery, profiles, session scheduling, and collaboration workflows.",
-    tech: ["React.js", "TypeScript", "Axios", "React Query", "Redux", "Context API", "Node.js", "Express.js", "Tailwind CSS"],
+    tech: [
+      "React.js",
+      "TypeScript",
+      "Axios",
+      "React Query",
+      "Redux",
+      "Context API",
+      "Node.js",
+      "Express.js",
+      "Tailwind CSS",
+    ],
     illustration: "mentorz",
   },
 ];

@@ -30,7 +30,7 @@ export function Contact() {
               Let’s discuss how I can help build scalable, reliable, and user-friendly web applications.
             </p>
             <div className="cta-actions">
-              <a
+              {/* <a
                 className={`btn btn--primary${busy ? " is-loading" : ""}`}
                 href={`mailto:${SITE.email}`}
                 aria-busy={busy || undefined}
@@ -38,6 +38,10 @@ export function Contact() {
               >
                 <span className="spinner" aria-hidden="true" />
                 <span className="btn-label">{busy ? "Working on it…" : "Get in Touch"}</span>
+              </a> */}
+
+              <a href={`mailto:${SITE.email}`} className={`btn btn--primary${busy ? " is-loading" : ""}`}>
+                Get in Touch
               </a>
               <a className="btn btn--ghost" href={SITE.linkedin} target="_blank" rel="noopener noreferrer">
                 Connect on LinkedIn <span aria-hidden="true">↗</span>

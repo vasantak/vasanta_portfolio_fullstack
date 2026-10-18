@@ -1,7 +1,7 @@
 import type { CSSProperties } from "react";
 import { ROUTES } from "../data/navigation";
 
-const TECH_LABELS = ["React.js", "TypeScript", "Node.js", "Express.js", "TanStack Query"];
+const TECH_LABELS = ["React.js", "TypeScript", "TanStack Query", "Axios", "Tailwind CSS", "REST APIs", "Node.js", "Express.js", "websockets ", "JWT Authentication", "PostgreSQL", "MongoDB", "AWS(S3, EC2, IAM)", "CI / CD", "Agile / Scrum", "Angular / Vue"];
 
 /** Staggers the entrance animation of each hero element. */
 const step = (i: number) => ({ "--i": i }) as CSSProperties;
