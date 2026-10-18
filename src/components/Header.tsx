@@ -146,8 +146,8 @@ export function Header() {
             })}
             <li>
               <a
-                href={`${import.meta.env.BASE_URL}Vasanta_B_K_Resume.pdf`}
-                download="Vasanta_B_K_Resume.pdf"
+                href={`${import.meta.env.BASE_URL}Vasanta_FullStack_Resume.pdf`}
+                download="Vasanta_FullStack_Resume.pdf"
                 className="nav-cv"
                 onClick={() => setOpen(false)}
               >

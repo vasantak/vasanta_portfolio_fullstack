@@ -59,11 +59,11 @@ export function Hero() {
           <div className="portrait-frame">
             <div className="portrait-inner">
               <div className="portrait-placeholder" role="img" aria-label="Profile photo placeholder">
-                <svg viewBox="0 0 120 120" aria-hidden="true">
-                  <circle cx="60" cy="44" r="20" />
-                  <path d="M20 108c0-22 18-38 40-38s40 16 40 38" />
-                </svg>
-                <span>Your photo here </span>
+                <img
+                  src={`${import.meta.env.BASE_URL}profile.jpg`}
+                  alt="Vasanta B K"
+                  className="w-full h-full object-cover rounded-full border-4 border-slate-50"
+                />
               </div>
             </div>
           </div>
